@@ -1,3 +1,117 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
+
 body {
-    background-color: ;
+  font-family: "PT Sans", sans-serif;
+
+  font-size: 30px;
+  line-height: 36px;
+  color: #000;
+  background-color: #ffffff;
+}
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #756257;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.page-header {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.main-index {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url("../images/index-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.index-columns {
+  color: #000000;
+  background-color: #83B3D3;
+}
+
+.search-form {
+  text-align: center;
+}
+
+.subscription {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.subscription-form {
+  line-height: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.subscription-button {
+  color: #ffffff;
+  background-color: #83B3D3;
+}
+
+.page-footer {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.page-footer .htmlacademy-link {
+  font-size: 14px;
+  color: #dbb590;
+}
+
+.footer-contacts-phone {
+  font-family: "PT Sans", sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
 }
