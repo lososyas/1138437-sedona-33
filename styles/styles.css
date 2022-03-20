@@ -32,6 +32,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
+.button-blue{
+  font-family: "PT Sans";
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #83B3D3;
+  text-decoration: none;
+  text-transform: uppercase; 
+  position: absolute;
+}
 
 .page-header {
   color: #000000;
@@ -52,26 +64,66 @@ body {
 .main-index {
   color: #000000;
   background-color: #ffffff;
-  background-image: url("/images/Главная\ страница/divider.jpg");
+  background-image: url("");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: absolute;
+}
+.banner {
+  background-image: url("images/main\divider.svg/");
+  background-size: cover;
   background-position: bottom;
 }
-
 .advantages-list {
   text-align: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .advantages-title {
   font-family: "PT Sans", sans-serif;
-  font-size: 21px;
-  line-height: 18px;
+  font-size: 24px;
+  line-height: 28px;
   text-transform: uppercase;
 }
 
-.index-columns {
-  color: #333333;
+.advantages-item-1 {
   background-color: #83B3D3;
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.advantages-item-house {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages-item-food {
+  background-color: #FFFFFF;
+}
+
+.advantages-item-souvenir{
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item-2 { 
+  background-color: #83B3D3; 
+}
+.advantages-item-3 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages-item-4 {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+.advantages-item-5 {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+
+.index-columns {
+  
 }
 
 .search-form {
@@ -79,9 +131,9 @@ body {
 }
 
 .subscription {
-  font-size: 30px;
-  line-height: 36px;
-  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
   background-image: url("/images/Главна\ страница/background.jpg");
 }
 
@@ -89,6 +141,7 @@ body {
   line-height: 26px;
   font-weight: 400;
   text-transform: uppercase;
+  opacity: 60%;
 }
 
 .subscription-button {
@@ -103,10 +156,6 @@ body {
   background-color: #ffffff;
 }
 
-.page-footer .htmlacademy-link {
-  font-size: 14px;
-  color: #dbb590;
-}
 
 .footer-contacts-phone {
   font-family: "PT Sans", sans-serif;
@@ -115,4 +164,10 @@ body {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+  color:#000000;
+}
+.email-form .input {
+  color: rgba (0,0,0,0.6);
+  font-size: 18px;
+  line-height: 26px;
 }
