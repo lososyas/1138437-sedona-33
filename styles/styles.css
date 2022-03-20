@@ -63,20 +63,19 @@ body {
 
 .main-index {
   color: #000000;
+  background-image: url("../images/main/welcome.svg");
   background-color: #ffffff;
-  background-image: url("");
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: absolute;
 }
 .banner {
-  background-image: url("images/main\divider.svg/");
+  background-image: url("../images/main/divider.svg");
   background-size: cover;
   background-position: bottom;
 }
 .advantages-list {
   text-align: center;
-  text-transform: uppercase;
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -94,7 +93,6 @@ body {
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
-  text-transform: uppercase;
   color: #FFFFFF;
 }
 .advantages-item-house {
@@ -123,6 +121,7 @@ body {
 
 
 .index-columns {
+
   
 }
 
@@ -134,7 +133,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   font-weight: 400;
-  background-image: url("/images/Главна\ страница/background.jpg");
+  background-image: url("../images/main/background.jpg");
 }
 
 .subscription-form {
@@ -170,4 +169,10 @@ body {
   color: rgba (0,0,0,0.6);
   font-size: 18px;
   line-height: 26px;
+}
+
+.inner-filter {
+  background-image: url("../images/catalog/catalog-background.jpg");
+  background-size: cover;
+  color: #FFFFFF;
 }
