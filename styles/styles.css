@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  src: url("fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,15 +10,14 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  src: url("fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
 body {
   font-family: "PT Sans", sans-serif;
-
-  font-size: 30px;
-  line-height: 36px;
+  font-size: 18px;
+  line-height: 21px;
   color: #000;
   background-color: #ffffff;
 }
@@ -53,9 +52,10 @@ body {
 .main-index {
   color: #000000;
   background-color: #ffffff;
-  background-image: url("../images/index-background.jpg");
+  background-image: url("/images/Главная\ страница/divider.jpg");
   background-size: 100% auto;
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .advantages-list {
@@ -64,13 +64,13 @@ body {
 
 .advantages-title {
   font-family: "PT Sans", sans-serif;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 21px;
+  line-height: 18px;
   text-transform: uppercase;
 }
 
 .index-columns {
-  color: #000000;
+  color: #333333;
   background-color: #83B3D3;
 }
 
@@ -82,6 +82,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   font-weight: 700;
+  background-image: url("/images/Главна\ страница/background.jpg");
 }
 
 .subscription-form {
