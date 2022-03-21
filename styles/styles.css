@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts/ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts/ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -21,6 +21,7 @@ body {
   color: #000;
   background-color: #ffffff;
 }
+
 .button {
   font-family: inherit;
   font-size: 20px;
@@ -30,9 +31,9 @@ body {
   color: #ffffff;
   background-color: #756257;
   text-decoration: none;
-  text-transform: uppercase;
 }
-.button-blue{
+
+.button-blue {
   font-family: "PT Sans";
   font-size: 20px;
   line-height: 26px;
@@ -41,9 +42,9 @@ body {
   color: #ffffff;
   background-color: #83B3D3;
   text-decoration: none;
-  text-transform: uppercase; 
   position: absolute;
 }
+
 
 .page-header {
   color: #000000;
@@ -63,19 +64,45 @@ body {
 
 .main-index {
   color: #000000;
-  background-image: url("../images/main/welcome.svg");
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: absolute;
+  
 }
+
 .banner {
   background-image: url("../images/main/divider.svg");
   background-size: cover;
-  background-position: bottom;
+
 }
-.advantages-list {
+
+.backgroundtop-welcome {
+  position: absolute;
+ 
+  
+}
+
+.divider {
+  background-position: bottom;
+  position: absolute;
+  
+}
+
+.banner-description {
+
+  font-size: 30px;
+  line-height: 36px;
   text-align: center;
+  text-transform: uppercase;
+}
+
+.banner-item {
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-list {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
@@ -95,37 +122,49 @@ body {
   line-height: 21px;
   color: #FFFFFF;
 }
+
 .advantages-item-house {
   background-color: rgba(131, 179, 211, 0.12);
+  color: #333333;
 }
+
 .advantages-item-food {
   background-color: #FFFFFF;
+  color: #333333;
 }
 
-.advantages-item-souvenir{
+.advantages-item-souvenir {
   background-color: rgba(131, 179, 211, 0.12);
+  color: #333333;
 }
 
-.advantages-item-2 { 
-  background-color: #83B3D3; 
+.advantages-item-2 {
+  background-color: #83B3D3;
 }
+
 .advantages-item-3 {
   background-color: rgba(131, 179, 211, 0.12);
+  color: #333333;
 }
+
 .advantages-item-4 {
   background-color: rgba(131, 179, 211, 0.2);
+  color: #333333;
 }
+
 .advantages-item-5 {
   background-color: rgba(131, 179, 211, 0.12);
+  color: #333333;
 }
 
-
-.index-columns {
-
-  
-}
+.search {}
 
 .search-form {
+  text-align: center;
+}
+
+.search-description {
+  color: #333333;
   text-align: center;
 }
 
@@ -163,10 +202,11 @@ body {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
-  color:#000000;
+  color: #000000;
 }
+
 .email-form .input {
-  color: rgba (0,0,0,0.6);
+  color: rgba (0, 0, 0, 0.6);
   font-size: 18px;
   line-height: 26px;
 }
