@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -13,8 +19,15 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-
+html {
+height: 100%;
+}
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -24,9 +37,28 @@ body {
 input {
   background-color: #F2F2F2;
 }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  width: 100%;
+  border: solid #ffffff ;
+  flex-grow: 1;
+  margin: 0 auto;
+
+
+}
 .visually-hidden {
-  visibility: hidden;
-  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .button {
@@ -58,25 +90,59 @@ input {
   color: #000000;
   background-color: #ffffff;
 }
+.navigation {
+display: flex;
+justify-content: flex-start;
+width: 1060px;
+margin: 0 auto;
+  /* padding-top: 0px; */
+  /* padding-right: 70px; */
+  /* padding-bottom: 0px; */
+  /* padding-left: 70px; */
+ height: 70px;
 
+}
 .navigation-link {
   font-family: "PT Sans", sans-serif;
+  font-size: 20px;
   line-height: 26px;
   font-weight: 700;
   text-align: center;
   color: #000000;
   background-color: #ffffff;
   text-decoration: none;
-  
+  margin: 0;
+  padding: 0;
+  width: 456px;
 }
 
+.navigation-user {
+ max-width: 250px;
+ margin-left: auto;
+
+}
+.navigation-list {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.main {
+  display: flex;
+}
+.main-container {
+  flex-grow: 1;
+}
 .main-index {
   color: #000000;
   background-color: #ffffff;
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: absolute;
-  
+
+}
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .banner {
@@ -184,11 +250,6 @@ input {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-}
-
-.search {}
-
-.search-form {
   text-align: center;
 }
 
@@ -207,6 +268,7 @@ input {
   background-color: #756257;
   font-weight: 700;
   text-decoration: none;
+
 }
 
 .subscription-main {
@@ -237,10 +299,12 @@ input {
 }
 
 .page-footer {
+  display: flex;
   font-size: 14px;
   font-weight: 700;
   color: #000000;
   background-color: #ffffff;
+  text-align: center;
 }
 
 
@@ -286,7 +350,7 @@ input {
   text-decoration: none;
   position: absolute;
   font-family: "PT Sans", sans-serif;
-  
+
 }
 .reset {
   font-weight: 400;
@@ -364,7 +428,7 @@ input {
   text-decoration: none;
 }
 .button-blue-download {
-  
+
   font-size: 20px;
   line-height: 26px;
   font-weight: 700;
@@ -379,7 +443,7 @@ input {
   padding-left: 0;
   list-style: none;
   display: inline-block;
-  
+
 
 }
 .pagination-item {
@@ -387,8 +451,8 @@ input {
   font-size: 20px;
   line-height: 26px;
   display: inline-block;
-  
-  
+
+
   text-transform: uppercase;
   color: #FFFFFF;
   background-color: #83B3D3;
@@ -397,7 +461,7 @@ input {
   color: #FFFFFF;
   background-color: #83B3D3;
   text-decoration: none;
-  
+
 }
 .pagination-link-current {
   background-color: #F2F2F2;
@@ -434,3 +498,7 @@ text-transform: uppercase;
 .breadcrumbs {
   list-style: none;
 }
+.search {
+  text-align: center;
+}
+
