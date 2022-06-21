@@ -85,7 +85,6 @@ input {
   text-transform: uppercase;
 }
 
-
 .page-header {
   color: #000000;
   background-color: #ffffff;
@@ -95,10 +94,10 @@ display: flex;
 justify-content: flex-start;
 width: 1060px;
 margin: 0 auto;
-  /* padding-top: 0px; */
-  /* padding-right: 70px; */
-  /* padding-bottom: 0px; */
-  /* padding-left: 70px; */
+padding-top: 0px;
+padding-right: 70px;
+padding-bottom: 0px;
+padding-left: 70px;
  height: 70px;
 
 }
@@ -114,6 +113,7 @@ margin: 0 auto;
   margin: 0;
   padding: 0;
   width: 456px;
+  white-space: nowrap;
 }
 
 .navigation-user {
@@ -124,6 +124,17 @@ margin: 0 auto;
 .navigation-list {
   display: flex;
   justify-content: flex-start;
+}
+
+.navigation-item {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 34px;
+  padding-bottom: 20px;
+  padding-left: 17px;
+
 }
 
 .main {
